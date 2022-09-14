@@ -1,0 +1,323 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    width: 100%;
+    background-color: rgb(231, 231, 231);
+}
+
+.header {
+    width: 100%;
+    height: 145px;
+    position: fixed;
+}
+
+.header .headercontent {
+    width: 100%;
+    height: 105px;
+    background-image: url(../images/hinh-anh-mua-sao-bang-dep-nhat-3701.jpg);
+}
+
+.headercontent .headtype {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    margin: auto;
+    vertical-align: middle;
+}
+
+.headtype img {
+    height: 100px;
+    padding-left: 20px;
+    float: left;
+}
+
+.headtype form {
+    margin-top: 25px;
+}
+
+.headtype input {
+    margin-left: 60px;
+    padding: 0px 20px;
+    width: 350px;
+    height: 45px;
+    outline: none;
+    border: 2px solid rgb(183, 183, 183);
+    border-radius: 10px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:medium;
+    background-color: black;
+    color: rgb(183, 183, 183);
+}
+
+.headtype button {
+    padding: 0px 10px;
+    width: 120px;
+    height: 49px;
+    outline: none;
+    border: 2px solid rgb(183, 183, 183);
+    border-radius: 10px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:medium;
+    background-color: black;
+    color: rgb(183, 183, 183);
+}
+
+.headtype button:hover {
+    font-weight: bold;
+    color: rgb(183, 183, 183);
+}
+
+.headtype #user {
+    padding-left: 30px;
+    padding-top: 40px;
+    text-decoration: none;
+    color:rgb(183, 183, 183);
+}
+
+.headermenu {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(17, 17, 17);
+}
+
+.headermenu .menu {
+    width: 78%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.menu ul li {
+    position: relative;
+}
+
+.menu ul li a {
+    display: flex;
+    position: relative;
+    background-color: rgb(17,17,17);
+    color: rgb(183, 183, 183);
+    padding: 10.5px 20px;
+    text-decoration: none;
+}
+
+.menu ul li a:link, .menu ul li a:visited {
+    color: white;
+}
+
+.menu ul li:hover > a {
+    background-color: lightblue;
+    color: rgb(17, 17, 17);
+    transition: 0.2s;
+}
+
+.menu ul li ul {
+    position: absolute;
+    top: 0;
+    width: 180px;
+    visibility: hidden;
+}
+
+.menu ul li:hover > ul {
+    visibility: visible;
+}
+
+#listanime {
+    z-index: 99999;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 450px;
+    width: 700px;
+    margin: auto;
+    top: 40px;
+}
+
+#listanime > li a:hover {
+    background-color: lightyellow;
+}
+
+#listdoc {
+    z-index: 99999;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 177.5px;
+    margin: auto;
+    top: 40px;
+}
+
+#listdoc > li a:hover {
+    background-color: lightyellow;
+}
+
+.main {
+    width: 100%;
+    height: 1400px;
+    background-color: rgb(57, 57, 57);
+    padding-top: 165px;
+    display: block;
+}
+
+.main .content {
+    width: 82%;
+    height: 97%;
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.content .rightside {
+    width: 23%;
+    height: 100%;
+    background-color: rgb(17, 17, 17);
+    margin-right: 10px;
+    float: right;
+}
+
+.rightside .menu {
+    position: relative;
+    width: 100%;
+    text-align: left;
+}
+
+.content .leftside {
+    float: left;
+    width: 915px;
+    height: 100%;
+    background-color: rgb(17, 17, 17);
+
+}
+
+.content .topic {
+    margin: 20px;
+    padding: 0;
+    text-align: left;
+    color: rgb(183, 183, 183);
+}
+
+.topic .suggested {
+    width: 100%;
+    height: 880px;
+}
+
+.topic .doc {
+    width: 47%;
+    height: 400px;
+    margin: 10px;
+    float: left;
+    border: 1px solid rgb(183, 183, 183);
+}
+
+.doc .topdoc {
+    width: 100%;
+    line-height: 30px;
+    border-bottom: 1px solid rgb(183, 183, 183);
+    color: black;
+    font-weight: bold;
+}
+
+.topdoc a {
+    margin-left: 10px;
+}
+
+.middoc {
+    height: 318px;
+    margin: 10px;
+}
+
+.trending {
+    float: right;
+    text-align: center;
+}
+
+.trending a {
+    text-decoration: none;
+    color: rgb(62, 66, 168);
+}
+
+.image {
+    width: 150px;
+    line-height: 190px;
+    background-color: rgb(194, 194, 194);
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.botdoc {
+    width: 100%;
+    line-height: 30px;
+    border-top: 1px solid rgb(183, 183, 183);
+    font-weight: bold;
+}
+
+.botdoc a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.botdoc a:hover {
+    color: rgb(194, 194, 194);
+}
+
+#facts > li a {
+    line-height: 35px;
+}
+
+#create {
+    color: yellow;
+}
+
+#create:hover {
+    background-color: lightyellow;
+    color: lightcoral;
+}
+
+#discuss {
+    width: 100%;
+    height: fit-content;
+    margin: 0;
+    padding: 0;
+}
+
+#discuss > li {
+    width: 100%;
+    line-height: 30px;
+    list-style: none;
+    border: 1px solid rgb(183, 183, 183);
+}
+
+#discuss > li:hover {
+    background-color: lightgreen;
+    color: rgb(17, 17, 17);
+}
+
+#discuss li > b {
+    font-size: large;
+}
+
+#discuss > li a, b {
+    margin-left: 10px;
+}
+
+.footer {
+    width: 100%;
+    height: 105px;
+    padding: 0;
+    margin: 0;
+    background-image: url(../images/hinh-anh-mua-sao-bang-dep-nhat-3701.jpg);
+}
+
+.footer .copyright {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 40px;
+    color: rgb(183, 183, 183);
+}

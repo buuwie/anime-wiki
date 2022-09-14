@@ -1,0 +1,188 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    width: 100%;
+    background-color: rgb(231, 231, 231);
+}
+
+.header {
+    width: 100%;
+    height: 105px;
+    
+}
+
+.header .headercontent {
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/hinh-anh-mua-sao-bang-dep-nhat-3701.jpg);
+}
+
+.headercontent .headtype {
+    width: 1150px;
+    height: 100%;
+    display: flex;
+    margin: auto;
+    vertical-align: middle;
+}
+
+.headtype img {
+    height: 100px;
+    padding-left: 20px;
+}
+
+.headtype form {
+    margin-top: 25px;
+}
+
+.headtype input {
+    margin-left: 30px;
+    padding: 0px 20px;
+    width: 350px;
+    height: 45px;
+    outline: none;
+    border: 2px solid rgb(183, 183, 183);
+    border-radius: 10px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:medium;
+    background-color: black;
+    color: rgb(183, 183, 183);
+}
+
+.headtype button {
+    padding: 0px 10px;
+    width: 120px;
+    height: 49px;
+    outline: none;
+    border: 2px solid rgb(183, 183, 183);
+    border-radius: 10px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:medium;
+    background-color: black;
+    color: rgb(183, 183, 183);
+}
+
+.headtype button:hover {
+    font-weight: bold;
+    color: rgb(183, 183, 183);
+}
+
+.headtype #user {
+    padding-left: 30px;
+    padding-top: 40px;
+    text-decoration: none;
+    color:rgb(183, 183, 183);
+}
+
+.content {
+    width: 100%;
+    height: 800px;
+    background-color: rgb(57, 57, 57);
+    padding-top: 30px;
+    display: block;
+}
+
+.content .contentsignin {
+    width: 1150px;
+    height: 95%;
+    margin: auto;
+    background-color: rgb(17, 17, 17);
+    color: rgb(183, 183, 183);
+    display: block;
+    border-radius: 10px;
+}
+
+.contentsignin .usersignin {
+    width: 60%;
+	height: 500px;
+	padding: 80px 30px;
+    margin: auto;
+}
+
+.usersignin h1 {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.usersignin #signintext {
+    width: 400px;
+    margin: 15px auto;
+}
+
+.usersignin input {
+    width: 400px;
+    height: 40px;
+    border: 1px solid rgb(183, 183, 183);
+    border-radius: 10px;
+    outline-color: rgb(255, 255, 255);
+    background-color: black;
+    color: rgb(183, 183, 183);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    padding: 0px 10px;
+}
+
+.usersignin button {
+    width: 422px;
+    height: 40px;
+    border: 1px solid #828fffce;
+    border-radius: 10px;
+    outline: none;
+    background-color: #828fffce;
+    padding: 0px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+.usersignin button:hover {
+    text-decoration: underline;
+}
+
+.usersignin span {
+    color: rgb(183, 183, 183);
+    margin: auto 200px;
+    text-align: center;
+}
+
+.usersignin a {
+    color: rgb(183, 183, 183);
+}
+
+.usersignin a:hover {
+    color: lightyellow;
+}
+
+.usersignin .captcha input {
+    width: 270px;
+    height: 40px;
+    border: 1px solid rgb(183, 183, 183);
+    border-radius: 10px;
+    outline-color: rgb(255, 255, 255);
+    background-color: black;
+    color: rgb(183, 183, 183);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    padding: 0px 10px;
+}
+
+.captcha img {
+    width: 100px;
+    height: 40px;
+    vertical-align: middle;
+}
+
+.footer {
+    width: 100%;
+    height: 105px;
+    padding: 0;
+    margin: 0;
+    background-image: url(../images/hinh-anh-mua-sao-bang-dep-nhat-3701.jpg);
+}
+
+.footer .copyright {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 40px;
+    color: rgb(183, 183, 183);
+}
